@@ -16,7 +16,12 @@ python -m pip install -U pip
 python -m pip install .
 ```
 
-3. Create a `.env` file with:
+3. Install `uv` if you want to run the app with it:
+```bash
+python -m pip install uv
+```
+
+4. Create a `.env` file with:
 ```env
 API_KEY=your_anthropic_api_key
 MODEL=claude-sonnet-4-6
@@ -25,7 +30,12 @@ MAX_TOKENS=2048
 
 ## Running
 
-### Use the CLI
+### Run with `uv`
+```bash
+uv run main.py
+```
+
+### Or use the standard CLI
 ```bash
 python main.py
 ```

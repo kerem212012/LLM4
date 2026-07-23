@@ -1,11 +1,12 @@
 [project]
 name = "llm4"
 version = "0.1.0"
-description = "Add your description here"
+description = "Retrieval-augmented generation chat using Anthropic and ChromaDB."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "anthropic>=0.116.0",
     "chromadb>=1.5.9",
     "rich>=15.0.0",
+    "environs>=9.4.0",
 ]

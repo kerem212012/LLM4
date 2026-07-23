@@ -1,0 +1,2 @@
+Information about automobiles: these are vehicles for transporting people and cargo.
+Information about spacecraft: they are used for space exploration.
